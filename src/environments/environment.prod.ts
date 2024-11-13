@@ -1,4 +1,4 @@
 
-export const evironment = {
+export const environment = {
     baseUrl: 'http://mipagina.com/api'
 }
