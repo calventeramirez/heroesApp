@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ValueChangeEvent } from '@angular/forms';
 
 @Component({
   selector: 'app-new-page',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class NewPageComponent {
 
+  public creadores = [
+    {id: 'DC Comics', desc: "DC - Comics"},
+    {id: 'Marvel Comics', desc: "Marvel - Comics"},
+  ];
 }
